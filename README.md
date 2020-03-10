@@ -15,6 +15,6 @@ String result = JsonParser.serialize(javaBean);
 **反序列化**
 
 ```java
-JavaBean result = JsonParser.deserialize(JsonStr, JavaBean.class);
+JavaBean result = JsonParser.deserialize(jsonStr, JavaBean.class);
 ```
 
