@@ -29,8 +29,8 @@ JavaBean result = JsonParser.deserialize(jsonStr, JavaBean.class);
 │      Mapper.java            // 使用反射技术实现JsonObject和JavaBean之间、JsonArray和ArrayList之间的双向转换
 │
 ├─parser                      // 语法分析器
-│      JsonArray.java
-│      JsonObject.java
+│      JsonArray.java         // 本质上是一个 ArrayList
+│      JsonObject.java        // 本质上是一个 HashMap
 │      Parser.java
 │      TokenReader.java
 │
